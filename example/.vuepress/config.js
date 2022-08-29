@@ -7,4 +7,10 @@ module.exports = {
   themeConfig: {
     author: 'viko16',
   },
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ]
+
 }

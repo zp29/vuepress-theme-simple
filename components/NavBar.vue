@@ -3,6 +3,7 @@
     v-if="navbar"
     class="navbar"
   >
+    <SearchBox />
     <a
       v-for="(url, name) in navbar"
       :key="name"
@@ -15,11 +16,15 @@
 </template>
 
 <script>
+  
+import SearchBox from '@SearchBox'
+
 export default {
   computed: {
     navbar() {
       return this.$themeConfig.navbar || null
-    }
-  }
+    },
+  },
+  components: { SearchBox }
 }
 </script>

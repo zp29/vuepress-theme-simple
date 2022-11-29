@@ -10,6 +10,7 @@
       target="_blank"
       class="navbar-item"
       rel="noopener noreferrer"
+      style="display: block;"
     >{{ name }}</a>
     <SearchBox class="SearchBox"/>
   </div>

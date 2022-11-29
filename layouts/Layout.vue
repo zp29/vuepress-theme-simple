@@ -9,11 +9,11 @@
         {{ $site.title }}
       </router-link>
       <div style="clear: both" />
-      <nav-bar />
+      <NavBar />
     </header>
-    <home-page v-if="isHome" />
-    <post-page v-else />
-    <footer-bar />
+    <HomePage v-if="isHome" />
+    <PostPage v-else />
+    <FooterBar />
   </div>
 </template>
 

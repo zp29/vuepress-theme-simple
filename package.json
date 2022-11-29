@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-theme-simple",
+  "name": "vuepress-theme-simple-zp29",
   "description": "✏️ Very Simple Blog Theme for VuePress",
   "version": "1.2.2",
   "main": "index.js",
@@ -13,8 +13,8 @@
     "vuepress-theme",
     "blog-theme"
   ],
-  "author": "viko16 <16viko@gmail.com>",
-  "repository": "viko16/vuepress-theme-simple",
+  "author": "zp29 <zp.mdzz@gmail.com>",
+  "repository": "zp29/vuepress-theme-simple",
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-search": "^1.9.7",

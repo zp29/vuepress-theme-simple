@@ -3,7 +3,7 @@
     v-if="navbar"
     class="navbar"
   >
-    <SearchBox />
+    <SearchBox class="SearchBox"/>
     <a
       v-for="(url, name) in navbar"
       :key="name"

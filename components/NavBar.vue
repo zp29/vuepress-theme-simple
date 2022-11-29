@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="navbar"
-    class="navbar"
+    class="navbar navbar2"
   >
     <SearchBox class="SearchBox"/>
     <a

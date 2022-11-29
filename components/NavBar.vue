@@ -3,7 +3,6 @@
     v-if="navbar"
     class="navbar navbar2"
   >
-    <SearchBox class="SearchBox"/>
     <a
       v-for="(url, name) in navbar"
       :key="name"
@@ -12,6 +11,7 @@
       class="navbar-item"
       rel="noopener noreferrer"
     >{{ name }}</a>
+    <SearchBox class="SearchBox"/>
   </div>
 </template>
 
